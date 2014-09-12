@@ -1,4 +1,4 @@
-snanny-genevirRV
+snanny-genavirRV
 ================
 
-code dedicated to integration of observations from Research Vessel operated by GENAVIR
+Integration of observations from Research Vessel operated by GENAVIR
