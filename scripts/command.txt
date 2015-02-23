@@ -1,0 +1,31 @@
+## load sensorML (systems)
+cd swe/systems/v2/insertSensor
+curl -X POST -d @thalassa_sbe21_sensorML.xml 'http://isi.ifremer.fr/snanny-sostServer/sos?service=SOS&version=2.0&request=insertSensor' --header "Content-Type:text/xml"
+curl -X POST -d @atalante_sbe21_sensorML.xml 'http://isi.ifremer.fr/snanny-sostServer/sos?service=SOS&version=2.0&request=insertSensor' --header "Content-Type:text/xml"
+curl -X POST -d @pourquoipas_sbe21_sensorML.xml 'http://isi.ifremer.fr/snanny-sostServer/sos?service=SOS&version=2.0&request=insertSensor' --header "Content-Type:text/xml"
+curl -X POST -d @suroit_sbe21_sensorML.xml 'http://isi.ifremer.fr/snanny-sostServer/sos?service=SOS&version=2.0&request=insertSensor' --header "Content-Type:text/xml"
+curl -X POST -d @thalassa_sbe21_sensorML.xml 'http://isi.ifremer.fr/snanny-sostServer/sos?service=SOS&version=2.0&request=insertSensor' --header "Content-Type:text/xml"
+curl -X POST -d @thalia_sbe21_sensorML.xml 'http://isi.ifremer.fr/snanny-sostServer/sos?service=SOS&version=2.0&request=insertSensor' --header "Content-Type:text/xml"
+curl -X POST -d @atalante_cinna_sensorML.xml 'http://isi.ifremer.fr/snanny-sostServer/sos?service=SOS&version=2.0&request=insertSensor' --header "Content-Type:text/xml"
+curl -X POST -d @pourquoipas_cinna_sensorML.xml 'http://isi.ifremer.fr/snanny-sostServer/sos?service=SOS&version=2.0&request=insertSensor' --header "Content-Type:text/xml"
+curl -X POST -d @suroit_cinna_sensorML.xml 'http://isi.ifremer.fr/snanny-sostServer/sos?service=SOS&version=2.0&request=insertSensor' --header "Content-Type:text/xml"
+curl -X POST -d @thalassa_cinna_sensorML.xml 'http://isi.ifremer.fr/snanny-sostServer/sos?service=SOS&version=2.0&request=insertSensor' --header "Content-Type:text/xml"
+curl -X POST -d @thalia_cinna_sensorML.xml 'http://isi.ifremer.fr/snanny-sostServer/sos?service=SOS&version=2.0&request=insertSensor' --header "Content-Type:text/xml"
+curl -X POST -d @atalante_sensorML.xml 'http://isi.ifremer.fr/snanny-sostServer/sos?service=SOS&version=2.0&request=insertSensor' --header "Content-Type:text/xml"
+curl -X POST -d @thalia_sensorML.xml 'http://isi.ifremer.fr/snanny-sostServer/sos?service=SOS&version=2.0&request=insertSensor' --header "Content-Type:text/xml"
+curl -X POST -d @thalassa_sensorML.xml 'http://isi.ifremer.fr/snanny-sostServer/sos?service=SOS&version=2.0&request=insertSensor' --header "Content-Type:text/xml"
+curl -X POST -d @suroit_sensorML.xml 'http://isi.ifremer.fr/snanny-sostServer/sos?service=SOS&version=2.0&request=insertSensor' --header "Content-Type:text/xml"
+curl -X POST -d @pourquoipas_sensorML.xml 'http://isi.ifremer.fr/snanny-sostServer/sos?service=SOS&version=2.0&request=insertSensor' --header "Content-Type:text/xml"
+
+## generate o&m
+python generate_om.py
+# comment and uncomment to switch TSG and CINNA
+
+
+## load observation (o&m)
+cd obs/tsg
+find . -name '*.xml' -exec curl -X POST --insecure -d @{} 'https://isi.ifremer.fr/snanny-sostServer/sos?service=SOS&version=2.0&request=insertObservation' --header "Content-Type:text/xml" \;
+cd obs/cinna/
+find . -name '*.xml' -exec curl -X POST --insecure -d @{} 'https://isi.ifremer.fr/snanny-sostServer/sos?service=SOS&version=2.0&request=insertObservation' --header "Content-Type:text/xml" \;
+
+
