@@ -1,0 +1,12 @@
+curl -X POST --insecure -d @thalassa_sbe21_sensorML.xml 'https://isi.ifremer.fr/snanny-sostServer/sos?service=SOS&version=2.0&request=insertSensor' --header "Content-Type:text/xml"
+curl -X POST --insecure -d @atalante_sbe21_sensorML.xml 'https://isi.ifremer.fr/snanny-sostServer/sos?service=SOS&version=2.0&request=insertSensor' --header "Content-Type:text/xml"
+curl -X POST --insecure -d @pourquoipas_sbe21_sensorML.xml 'https://isi.ifremer.fr/snanny-sostServer/sos?service=SOS&version=2.0&request=insertSensor' --header "Content-Type:text/xml"
+curl -X POST --insecure -d @suroit_sbe21_sensorML.xml 'https://isi.ifremer.fr/snanny-sostServer/sos?service=SOS&version=2.0&request=insertSensor' --header "Content-Type:text/xml"
+curl -X POST --insecure -d @thalassa_sbe21_sensorML.xml 'https://isi.ifremer.fr/snanny-sostServer/sos?service=SOS&version=2.0&request=insertSensor' --header "Content-Type:text/xml"
+curl -X POST --insecure -d @thalia_sbe21_sensorML.xml 'https://isi.ifremer.fr/snanny-sostServer/sos?service=SOS&version=2.0&request=insertSensor' --header "Content-Type:text/xml"
+curl -X POST --insecure -d @atalante_cinna_sensorML.xml 'https://isi.ifremer.fr/snanny-sostServer/sos?service=SOS&version=2.0&request=insertSensor' --header "Content-Type:text/xml"
+curl -X POST --insecure -d @pourquoipas_cinna_sensorML.xml 'https://isi.ifremer.fr/snanny-sostServer/sos?service=SOS&version=2.0&request=insertSensor' --header "Content-Type:text/xml"
+curl -X POST --insecure -d @suroit_cinna_sensorML.xml 'https://isi.ifremer.fr/snanny-sostServer/sos?service=SOS&version=2.0&request=insertSensor' --header "Content-Type:text/xml"
+curl -X POST --insecure -d @thalassa_cinna_sensorML.xml 'https://isi.ifremer.fr/snanny-sostServer/sos?service=SOS&version=2.0&request=insertSensor' --header "Content-Type:text/xml"
+curl -X POST --insecure -d @thalia_cinna_sensorML.xml 'https://isi.ifremer.fr/snanny-sostServer/sos?service=SOS&version=2.0&request=insertSensor' --header "Content-Type:text/xml"
+
