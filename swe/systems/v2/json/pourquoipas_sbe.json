@@ -1,0 +1,24 @@
+{
+   "author":"tloubrieu",
+   "properties":{
+      "uuid":"17af49b0-5914-4e79-9697-a89f94e81a24",
+      "code":"PP_SBE",
+      "family":"instrument",
+      "name":"thermosalinograph",
+      "description":"thermosalingraph on Pourquoi Pas? (SBE 21)"
+   },
+  "contacts":{
+    "owner":{
+      "@id":"1054",
+      "name":"IFREMER",
+      "email":"sismer@ifremer.fr"
+    },
+    "operator":{
+      "name":"GENAVIR",
+      "email":"genavir@ifremer.fr"
+    }
+  },
+  "ancestors":[
+    "e8186811-feb8-41bb-9588-6175480e4932","6df953cf-17a4-4e4a-86f3-f4a05fdb1b80"
+      ]
+}

@@ -1,0 +1,24 @@
+{
+   "author":"tloubrieu",
+   "properties":{
+      "uuid":"f04ae920-5a87-41be-afb5-d189836d631e",
+      "code":"SUROIT_SBE",
+      "family":"instrument",
+      "name":"thermosalinograph",
+      "description":"thermosalingraph on Suroit (SBE 21)"
+   },
+  "contacts":{
+    "owner":{
+      "@id":"1054",
+      "name":"IFREMER",
+      "email":"sismer@ifremer.fr"
+    },
+    "operator":{
+      "name":"GENAVIR",
+      "email":"genavir@ifremer.fr"
+    }
+  },
+  "ancestors":[
+    "e8186811-feb8-41bb-9588-6175480e4932","4274f822-4d98-412b-a767-f97130ab8fd5"
+      ]
+}

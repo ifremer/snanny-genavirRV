@@ -1,0 +1,29 @@
+{
+  "type":"Feature",
+  "geometry":{
+    "type":"Point",
+    "coordinates":[
+      ___longitude___,
+      ___latitude___
+    ]
+  },
+  "properties":{
+    "uuid":"___localuuid___",
+    "author":"tloubrie",
+    "family":"campagne",
+    "name":"navigation cinna ___crnom___",
+    "description": "navigation cinna ___crnom___, ___caman___, ___navire___",
+    "result":"___filepath___",
+    "ancestors":[
+      ___procedurekey___
+    ],
+    "resulttimestamp":___measuredate___,
+    "updatetimestamp":___updatedate___,
+    "geohash":[
+       ___geohash___
+    ],
+    "resulttimehash":[
+      ___timehash___
+    ]
+  }
+}

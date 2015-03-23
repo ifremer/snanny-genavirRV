@@ -1,0 +1,24 @@
+{
+   "author":"tloubrieu",
+   "properties":{
+      "uuid":"eff0e1e9-b82f-4375-81ac-718245447dc5",
+      "code":"THALIA_CINNA",
+      "family":"instrument",
+      "name":"integrated navigation system",
+      "description":"integrated navigation system on Thalia (CINNA)"
+   },
+  "contacts":{
+    "owner":{
+      "@id":"1054",
+      "name":"IFREMER",
+      "email":"sismer@ifremer.fr"
+    },
+    "operator":{
+      "name":"GENAVIR",
+      "email":"genavir@ifremer.fr"
+    }
+  },
+  "ancestors":[
+    "e8186811-feb8-41bb-9588-6175480e4932","300146ad-6997-484d-a70b-ffbe3d87cb53"
+      ]
+}

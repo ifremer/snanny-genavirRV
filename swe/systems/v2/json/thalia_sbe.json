@@ -1,0 +1,24 @@
+{
+   "author":"tloubrieu",
+   "properties":{
+      "uuid":"40b955b6-1dd0-4687-9ecf-dc8a5254a3f7",
+      "code":"THALIA_SBE",
+      "family":"instrument",
+      "name":"thermosalinograph",
+      "description":"thermosalingraph on Thalia (SBE 21)"
+   },
+  "contacts":{
+    "owner":{
+      "@id":"1054",
+      "name":"IFREMER",
+      "email":"sismer@ifremer.fr"
+    },
+    "operator":{
+      "name":"GENAVIR",
+      "email":"genavir@ifremer.fr"
+    }
+  },
+  "ancestors":[
+    "e8186811-feb8-41bb-9588-6175480e4932","300146ad-6997-484d-a70b-ffbe3d87cb53"
+      ]
+}

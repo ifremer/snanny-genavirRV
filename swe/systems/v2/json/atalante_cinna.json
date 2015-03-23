@@ -1,0 +1,24 @@
+{
+   "author":"tloubrieu",
+   "properties":{
+      "uuid":"6c6bf0c8-334d-48db-bda5-297b642a097b",
+      "code":"ATALANTE_CINNA",
+      "family":"instrument",
+      "name":"integrated navigation system",
+      "description":"integrated navigation system on Atalante (CINNA)"
+   },
+  "contacts":{
+    "owner":{
+      "@id":"1054",
+      "name":"IFREMER",
+      "email":"sismer@ifremer.fr"
+    },
+    "operator":{
+      "name":"GENAVIR",
+      "email":"genavir@ifremer.fr"
+    }
+  },
+  "ancestors":[
+    "e8186811-feb8-41bb-9588-6175480e4932","2764d202-6814-4fd4-88fb-816325d817a0"
+      ]
+}
